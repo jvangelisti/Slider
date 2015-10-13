@@ -1,0 +1,176 @@
+body: { 
+  background-color: #000000; 
+  position: relative; 
+  font-size: 14px; 
+  font-family: arial;
+}
+
+.mask {
+  background-color: #000000; 
+  position: relative;
+  overflow: hidden;
+}
+
+.images {
+  padding: 0;
+  margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  border: none;
+}
+
+ul.triggers {
+  position: absolute;
+  top: 35rem;
+  left: 50rem;
+  list-style: none;
+}
+
+ul.triggers li {
+  display: inline-block;
+  margin: 0 5px;
+  font: bold 16px arial;
+  cursor: pointer;
+  background-color: #cccccc;
+  color: #000000;
+  padding: 10px;
+  border-radius: 1em;
+}
+
+ul.triggers li.selected {
+  background-color: red;
+  color: #000000;
+}
+
+.control {
+  position: absolute;
+  top: 17rem;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.prev {
+  left: .1rem;
+  font-size: 5rem;
+}
+
+.next {
+  left: 117rem;
+  font-size: 5rem;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+.headerphoto1 {
+  background: url(../images/puttinggreen.jpg) no-repeat center center;
+  height: 20rem;
+  background-color: teal;
+  position: absolute;
+}
+@media screen and (min-width: 1050px) {
+  .headerphoto1 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  border: none;
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+}
+.headerphoto2 {
+  background: url(../images/landscape.jpg) no-repeat center center;
+  height: 20rem;
+  background-color: teal;
+  position: absolute;
+}
+@media screen and (min-width: 1050px) {
+  .headerphoto2 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  margin-top: -1.1rem;
+  border: none;
+  }
+}
+.headerphoto3 {
+  background: url(../images/pets.jpg) no-repeat center center;
+  height: 20rem;
+  background-color: teal;
+  position: absolute;
+}
+@media screen and (min-width: 1050px) {
+  .headerphoto3 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  margin-top: -2.3rem;
+  border: none;
+  }
+}
+.headerphoto4 {
+  background: url(../images/playground.jpg) no-repeat center center;
+  height: 20rem;
+  background-color: teal;
+  position: absolute;
+}
+@media screen and (min-width: 1050px) {
+  .headerphoto4 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  border: none;
+  margin-top: -3.5rem;
+  }
+}
+.headerphoto5 {
+  background: url(../images/roof.jpg) no-repeat center center;
+  height: 20rem;
+  background-color: teal;
+  position: absolute;
+}
+@media screen and (min-width: 1050px) {
+  .headerphoto5 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  border: none;
+  margin-top: -4.7rem;
+  }
+}
+.headerphoto6 {
+  background: url(../images/commercial.jpg) no-repeat center center;
+  height: 20rem;
+  background-color: teal;
+  position: absolute;
+}
+@media screen and (min-width: 1050px) {
+  .headerphoto6 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  border: none;
+  margin-top: -5.9rem;
+  }
+}
+
